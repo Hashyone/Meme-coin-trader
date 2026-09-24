@@ -1,0 +1,17 @@
+[
+  {
+    "id": "0xb94647b272ea26473e3f49e3b77b98195a439e65-mu64mcll",
+    "token": "0xB94647b272EA26473e3F49E3B77B98195A439E65",
+    "pairToken": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "curve": "0xd29554588DcD73849711DA0a442049C4e2FaDeD1",
+    "tokenAmount": "600380982314585742584002",
+    "remainingTokenAmount": "600380982314585742584002",
+    "committedWei": "2000000",
+    "highestMilestone": 0,
+    "consecutiveFailures": 0,
+    "status": "OPEN",
+    "openedAt": "2026-09-17T22:53:58.473Z",
+    "entryTransaction": "0x1792fe8f7ecc72360e88fed4fd7e483b3a9b0e857bfb93cdbb122b6878ae80d7",
+    "exits": []
+  }
+]

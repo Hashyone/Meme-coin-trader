@@ -1,0 +1,55 @@
+{
+  "name": "sol",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && hardhat test --no-compile",
+    "bot:analysis": "npm run build && node dist/sniper/bot.js",
+    "bot:diagnose": "npm run build && node dist/sniper/bot.js --diagnose",
+    "bot:scan:pons": "npm run build && node dist/sniper/bot.js --scan-pons",
+    "bot:simulate": "npm run build && node dist/sniper/bot.js --simulate",
+    "bot:paper": "npm run build && node dist/sniper/bot.js --paper"
+    ,"bot:live": "npm run build && node dist/sniper/bot.js --live"
+    ,"bot:pons-probe": "npm run build && node dist/sniper/bot.js --pons-probe"
+    ,"bot:pons-diagnose": "npm run build && node dist/sniper/bot.js --pons-diagnose"
+    ,"bot:pons-v4-probe": "npm run build && node dist/sniper/bot.js --pons-v4-probe"
+    ,"bot:pons-v4-approve": "npm run build && node dist/sniper/bot.js --pons-v4-approve"
+  },
+  "dependencies": {
+    "@ethereum-waffle/compiler": "^4.0.3",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.7",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@typechain/ethers-v5": "^11.1.2",
+    "axios": "^1.7.2",
+    "dotenv": "^17.4.2",
+    "ethereum-waffle": "^2.2.0",
+    "ethers": "^6.13.0",
+    "ganache": "^7.7.7",
+    "glob": "^9.2.0",
+    "lru-cache": "^9.0.0",
+    "rimraf": "^4.4.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^26.4.1",
+    "chai": "^6.2.2",
+    "eth-gas-reporter": "^0.2.25",
+    "hardhat": "^2.22.5",
+    "hardhat-gas-reporter": "^1.0.10",
+    "typechain": "^8.3.2",
+    "typescript": "^7.0.2"
+  },
+  "main": "Deploy.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
